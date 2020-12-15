@@ -9,8 +9,8 @@ function feetToMile(feet) { // Declaring the function feetToMile for converting 
     return `The number of miles in ${feet} feet is ${mile}`; // Returning the number of mile
 }
 
-// const result = feetToMile(5280); // Calling the feetToMile function with a parameter of feet
-// console.log(result); // Printing the result
+const result = feetToMile(5280); // Calling the feetToMile function with a parameter of feet
+console.log(result); // Printing the result
 
 
 
@@ -21,8 +21,8 @@ function woodCalculator(chair, table, bed) { // Declaring the function woodCalcu
     else if (chair < 0 || table < 0 || bed < 0) { // Checking if any parameters given is negative or not
         return `Any of the parameters given can't be negative`; // Returning that any of the parameters can't be negative
     }
-    const chairTotalWood = chair * 5; // Calculating how much wood is needed for the number of chairs
-    const tableTotalWood = table * 5; // Calculating how much wood is needed for the number of tables
+    const chairTotalWood = chair * 1; // Calculating how much wood is needed for the number of chairs
+    const tableTotalWood = table * 3; // Calculating how much wood is needed for the number of tables
     const bedTotalWood = bed * 5; // Calculating how much wood is needed for the number of beds
     return `The total wood needed is: ${chairTotalWood + tableTotalWood + bedTotalWood} Cubic Feet`; // returning how much wood is needed
 }
